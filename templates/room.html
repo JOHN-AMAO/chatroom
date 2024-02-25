@@ -10,5 +10,8 @@
   </head>
   <body>
     <h1>The room number is G111</h1>
+    {% for room in rooms %}
+    <p>{{room.name}}</p>
+    {% endfor %}
   </body>
 </html>
